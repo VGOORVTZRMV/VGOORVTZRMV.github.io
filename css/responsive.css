@@ -1,0 +1,271 @@
+/*
+    Theme Responsive Design
+*/
+
+@media (max-width: 1024px) {
+	.hero_section,
+    .hero_inner{
+        height: 650px;
+    }
+}
+
+/* ---- Start of max-width 992px CSS ---- */
+@media (max-width: 992px) {
+    .header_area:before{
+        width: 25%;
+    }
+    ul.nav > li > a {
+        font-size: 12px;
+        line-height: 70px;
+        padding: 0 10px;
+    }
+    .hero_section,
+    .hero_inner{
+        height: 580px;
+    }
+    .feature_img:before{
+        width: 35%;
+    }
+    .skills_items .skill_item:nth-child(4){
+        margin-bottom: 30px;
+    }
+	.blog_item .blog_thumb,
+    .blog_item .blog_content{
+        width: 100%;
+        float: none;
+    }
+    .blog_item .blog_content {
+        margin: 0;
+    }
+
+}
+/* ---- End of max-width 992px CSS ---- */
+
+
+/* ---- Start of min-width 480px and max-width 768px CSS ---- */
+@media all and (min-width: 480px) and (max-width: 768px) {
+	.hero_section,
+    .hero_inner{
+        height: 550px;
+    }
+    
+}
+/* ---- End of min-width 480px and max-width 768px CSS ---- */
+
+
+/* ---- Start of max-width 767px CSS ---- */
+@media all and (max-width: 767px) {
+    body, p{
+	   font-size: 12px;
+	   line-height: 22px;
+    }
+    .padding{
+        padding: 60px 0;
+    }
+    .pb-60{
+        padding-bottom: 35px;
+    }
+    h1{
+	   font-size: 20px;
+    }
+    .section_heading.align-left{
+        text-align: center!important;
+    }
+    h2{
+        font-size: 20px;
+    }
+     h3{
+	   font-size: 16px;
+    }
+    .header_area,
+    .header_area:before{
+		height: 60px;
+	}
+    .header_area:before {
+        width: 35%;
+    }
+	.navbar-header .brand {
+		display: block;
+		line-height: 60px;
+        padding-left: 20px;
+	}
+    .navbar-toggle{
+        padding: 14px 10px;
+    }
+    .navbar-collapse {
+	  background-color: #181818;
+	  border-top: medium none;
+	  box-shadow: none;
+	  margin-top: 0px;
+	  overflow-x: visible;
+	  padding-left: 0;
+	  padding-right: 0;
+	}
+	ul.nav{
+        margin: 0;
+        overflow: hidden;
+    }
+	ul.nav > li > a{
+        font-size: 14px;
+        color: #fff;
+		line-height: 60px;
+		padding: 0 30px;
+	}
+    ul.nav > li > a:hover,
+    ul.nav > li.active > a {
+        background-color: #ffc327;
+        color: #fff;
+    }
+    .hero_section,
+    .hero_inner{
+        height: 480px;
+    }
+    .hero_content h2.sm_title {
+        font-size: 14px;
+        margin: 0 0 10px;
+    }
+    .hero_content h1.big_title {
+        font-size: 25px;
+        line-height: 35px;
+    }
+	.hero_content h1.big_title br{
+		display: none;
+	}
+    .hero_content p {
+        margin: 15px 0;
+    }
+    .hero_content p br{
+        display: none;
+    }
+    .hexa_btn {
+        font-size: 14px;
+        line-height: 40px;
+        padding: 0 20px;
+    }
+    .feature_img:before{
+        display: none;
+    }
+    .feature_wrap{
+        margin: 0;
+    }
+    .feature_items{
+        padding: 0;
+    }
+    .portfolio_bg_img:before{
+        display: none;
+    }
+	.skills_items {
+		padding-left: 15px;
+	}
+    .skills_items .col-sm-6{
+        float: left;
+        width: 50%;
+    }
+	.team_members li.col-sm-4{
+		float: left;
+		width: 33.33%;
+	}
+	.pricing_inner .buy_now_btn {
+		bottom: inherit;
+		top: 25px;
+	}
+    .team_member,
+    .pricing_inner,
+    .blog_item{
+        margin-bottom: 30px;
+    }
+    .pricing_wrap li:last-child .pricing_inner,
+    .blog_items .blog_item:last-child,
+    .team_members .team_member:last-child{
+        margin-bottom: 0;
+    }
+	.skills_items .col-sm-6,
+	.blog_items li.col-sm-6{
+		float: left;
+		width: 50%;
+	}
+	.team_members li.col-sm-4,
+    .blog_item .blog_thumb,
+    .blog_item .blog_content{
+        width: 100%;
+        float: none;
+    }
+    .blog_item .blog_content {
+        margin: 0;
+    }
+    .contact_form #name{
+        margin-bottom: 15px;
+    }
+    .footer_section{
+        text-align: center;
+    }
+    .footer_section:before{
+        display: none;
+    }
+    .copyright{
+        color: #333;
+        margin: 15px;
+    }
+    .footer_social{
+        text-align: center;
+    }
+    .scroll-to-top{
+        display: none !important;
+    }
+}
+/* ---- End of max-width 767px CSS ---- */
+
+
+/* ---- Start of max-width 480px CSS ---- */
+@media all and (max-width: 480px) {
+    .section_heading p br{
+        display: none;
+    }
+	.header_area:before{
+		width: 50%;
+	}
+    .portfolio_section .more_project_btn {
+        margin-top: 80px;
+        margin-left: calc(50% - 82px);
+    }
+	.skills_items .col-sm-6{
+		float: none;
+		width: 100%;
+	}
+    .skills_items {
+        padding: 0 10px;
+    }
+    .skills_items .skill_item:nth-child(5){
+        margin-bottom: 30px;
+    }
+    .video_section{
+        height: 350px;
+    }
+	.cta_content h2 {
+		font-size: 30px;
+	}
+	.blog_items li.col-sm-6,
+	.pricing_wrap .col-sm-5{
+		float: none;
+		width: 100%;
+	}
+
+}
+/* ---- End of max-width 480px CSS ---- */
+
+
+/* ---- Start of max-width 420px CSS ---- */
+@media all and (max-width: 420px) {
+	.skills_items .col-sm-6{
+		float: none;
+		width: 100%;
+	}
+}
+/* ---- End of max-width 420px CSS ---- */
+
+
+/* ---- Start of max-width 380px CSS ---- */
+@media all and (max-width: 380px) {
+    
+}
+/* ---- End of max-width 380px CSS ---- */

@@ -1,19 +1,550 @@
 <!doctype html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang=""> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0">
+		<meta name="description" content="">
+		<meta name="author" content="">
+       
+        <title>HEXA - HTML5 Responsive Landing Page</title>
+        
+		<link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+		
+		<!-- Font Awesome CSS -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+		<!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+		<!-- AOS CSS -->
+        <link rel="stylesheet" href="css/aos.css">
+		<!-- OWL-Carousel CSS -->
+        <link rel="stylesheet" href="css/owl.carousel.css">
+		<!-- Venobox CSS -->
+        <link rel="stylesheet" href="css/venobox/venobox.css">
+		<!-- Main CSS -->
+        <link rel="stylesheet" href="css/main.css">
+		<!-- Responsive CSS -->
+        <link rel="stylesheet" href="css/responsive.css">
 
-<html lang="en">
-<head>
-  <meta charset="utf-8">
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+    </head>
+    <body>
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <!-- LOADER -->
+        <div class="loader">
+            <div class="tt-loading-center">
+                <div class="tt-loading-center-absolute">
+                    <div class="tt-object object_four"></div>
+                    <div class="tt-object object_three"></div>
+                    <div class="tt-object object_two"></div>
+                    <div class="tt-object object_one"></div>
+                </div>
+            </div>
+            <div id="loading-text">Loading...</div>        
+        </div>
+        <!--LOADER -->
 
-  <title> Site titlie </title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
+		<header id="home" class="header_area">
+            <nav class="navbar">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="nav-btn navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href="#" class="brand">HEXA</a>
+                    </div>
+                    <div id="navbar" class="collapse navbar-collapse navbar-right">
+                        <ul class="nav navbar-nav nav-menu">
+                            <li class="active"><a data-scroll href="#home">Home <span class="sr-only">(current)</span></a></li>
+                            <li><a data-scroll href="#services">Services</a></li>
+                            <li><a data-scroll href="#portfolio">Portfolios</a></li>
+                            <li><a data-scroll href="#skills">Skills</a></li>
+                            <li><a data-scroll href="#team">Team</a></li>
+                            <li><a data-scroll href="#pricing">Pricing</a></li>
+                            <li><a data-scroll href="#blog">Blog</a></li>
+                            <li><a data-scroll href="#contact">Contact</a></li>
+                        </ul>
+                    </div><!--/.navbar-collapse -->
+                </div>
+            </nav><!-- Navigation Bar -->
+		</header>
+       <!-- Header -->
+        
+        <section id="home" class="hero_section">
+           <div id="particles-js"></div>
+            <div class="container">
+                <div class="hero_inner">
+                    <div class="table-cell">
+                        <div class="hero_content">
+                            <h1 class="big_title">Everything You Need To <br>Build An Awesome Website!</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias commodi consequatur <br> excepturi nam quos voluptatem, adipisci itaque sapiente repellat nulla! Lorem ipsum <br> dolor sit amet.</p>
+                            <a href="#" class="hexa_btn">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Hero Section -->
+        
+        <section id="services" class="feature_section padding">
+           <div class="feature_img">
+                <div class="container">
+                    <div class="col-md-6 col-md-offset-6 col-sm-8 col-sm-offset-4">
+                        <div class="feature_wrap">
+                            <ul class="feature_items">
+                                <li class="feature_item">
+                                    <div class="feature_icon">
+                                        <i class="fa fa-tablet"></i>
+                                    </div>
+                                    <div data-aos="fade-left" class="feature_content">
+                                        <h3>Responsive Design</h3>
+                                        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Quibusdam dolores ipsum unde numquam explicabo velit libero sint.</p>
+                                    </div>
+                                </li>
+                                <li class="feature_item">
+                                    <div class="feature_icon">
+                                        <i class="fa fa-flag"></i>
+                                    </div>
+                                    <div data-aos="fade-left" class="feature_content">
+                                        <h3>Quick Support</h3>
+                                        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Quibusdam dolores ipsum unde numquam explicabo velit libero sint.</p>
+                                    </div>
+                                </li>
+                                <li class="feature_item">
+                                    <div class="feature_icon">
+                                        <i class="fa fa-leaf"></i>
+                                    </div>
+                                    <div data-aos="fade-left" class="feature_content">
+                                        <h3>Web Design Design</h3>
+                                        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Quibusdam dolores ipsum unde numquam explicabo velit libero sint.</p>
+                                    </div>
+                                </li>
+                                <li class="feature_item">
+                                    <div class="feature_icon">
+                                        <i class="fa fa-code-fork"></i>
+                                    </div>
+                                    <div data-aos="fade-left" class="feature_content">
+                                        <h3>Development</h3>
+                                        <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s. Quibusdam dolores ipsum unde numquam explicabo velit libero sint.</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div><!-- Features -->
+                </div>
+            </div>
+        </section>
+        <!-- Feature Section -->
+        
+        <section id="portfolio" class="portfolio_section padding">
+            <div class="portfolio_bg_img">
+                <div class="container">
+                    <div data-aos="fade-up" class="section_heading align-left pb-60">
+                        <h2>What <span>We</span> Have Done The Work!</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    </div><!-- Section Heading -->
+                    <div class="row">
+                       <div class="col-sm-9">
+                            <ul id="portfolio_carousel" class="portfolio_items">
+                                <li class="portfolio_item">
+                                    <figure class="portfolio_thumb">
+                                        <img src="img/portfolio-1.jpg" alt="Portfolio">
+                                        <div class="overlay">
+                                            <a href="img/portfolio-1.jpg" class="img_thumb">
+                                                <div class="table-cell">
+                                                    <i class="fa fa-eye"></i>
+                                               </div>
+                                            </a>
+                                        </div>
+                                    </figure>
+                                </li>
+                                <li class="portfolio_item">
+                                    <figure class="portfolio_thumb">
+                                        <img src="img/portfolio-2.jpg" alt="Portfolio">
+                                        <div class="overlay">
+                                            <a href="img/portfolio-2.jpg" class="img_thumb img_popup">
+                                                <div class="table-cell">
+                                                    <i class="fa fa-eye"></i>
+                                               </div>
+                                            </a>
+                                        </div>
+                                    </figure>
+                                </li>
+                                <li class="portfolio_item">
+                                    <figure class="portfolio_thumb">
+                                        <img src="img/portfolio-3.jpg" alt="Portfolio">
+                                        <div class="overlay">
+                                            <a href="img/portfolio-3.jpg" class="img_thumb img_popup">
+                                                <div class="table-cell">
+                                                    <i class="fa fa-eye"></i>
+                                               </div>
+                                            </a>
+                                        </div>
+                                    </figure>
+                                </li>
+                                <li class="portfolio_item">
+                                    <figure class="portfolio_thumb">
+                                        <img src="img/portfolio-4.jpg" alt="Portfolio">
+                                        <div class="overlay">
+                                            <a href="img/portfolio-4.jpg" class="img_thumb img_popup">
+                                               <div class="table-cell">
+                                                    <i class="fa fa-eye"></i>
+                                               </div>
+                                            </a>
+                                        </div>
+                                    </figure>
+                                </li>
+                                <li class="portfolio_item">
+                                    <figure class="portfolio_thumb">
+                                        <img src="img/portfolio-5.jpg" alt="Portfolio">
+                                        <div class="overlay">
+                                            <a href="img/portfolio-5.jpg" class="img_thumb img_popup">
+                                                <div class="table-cell">
+                                                    <i class="fa fa-eye"></i>
+                                               </div>
+                                            </a>
+                                        </div>
+                                    </figure>
+                                </li>
+                            </ul>
+                            <button type="button" class="more_project_btn">See All Projects</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio Section -->
+        
+        <section id="skills" class="skills_section padding">
+            <div class="container">
+                <div data-aos="fade-up" class="section_heading pb-60">
+                    <h2 class="dark-color"><span>Our</span> Skills</h2>
+                    <p class="dark-color">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div><!-- Section Heading -->
+                <div class="row">
+                    <ul class="skills_items">
+                        <li class="col-md-4 col-sm-6 skill_item">
+                            <div class="skill_counter">
+                                <span><span class="counter">50</span>%</span>
+                            </div>
+                            <div class="skill_conetent">
+                                <h3>Web Design</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur expedita itaque.</p>
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-6 skill_item">
+                            <div class="skill_counter">
+                                <span><span class="counter">90</span>%</span>
+                            </div>
+                            <div class="skill_conetent">
+                                <h3>Photoshop</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur expedita itaque.</p>
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-6 skill_item">
+                            <div class="skill_counter">
+                                <span><span class="counter">60</span>%</span>
+                            </div>
+                            <div class="skill_conetent">
+                                <h3>Javascript</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur expedita itaque.</p>
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-6 skill_item">
+                            <div class="skill_counter">
+                                <span><span class="counter">95</span>%</span>
+                            </div>
+                            <div class="skill_conetent">
+                                <h3>HTML5 &amp; CSS3</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur expedita itaque.</p>
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-6 skill_item">
+                            <div class="skill_counter">
+                                <span><span class="counter">85</span>%</span>
+                            </div>
+                            <div class="skill_conetent">
+                                <h3>WordPress</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur expedita itaque.</p>
+                            </div>
+                        </li>
+                        <li class="col-md-4 col-sm-6 skill_item">
+                            <div class="skill_counter">
+                                <span><span class="counter">75</span>%</span>
+                            </div>
+                            <div class="skill_conetent">
+                                <h3>Bootstrap</h3>
+                                <p>Lorem ipsum dolor sit amet, consectetur expedita itaque.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Skills Section -->
+        
+        <section class="video_section padding">
+           <div class="video_inner">
+               <div class="table-cell">
+                   <a class="img_popup" data-type="youtube" data-overlay="rgba(255,195,39,0.8)" href="https://www.youtube.com/watch?v=cLCkqQhiTuk"><i class="fa fa-play-circle"></i></a>
+               </div>
+            </div>
+        </section>
+        <!-- Video Section -->
+        
+        <section id="team" class="team_section padding">
+            <div class="container">
+                <div data-aos="fade-up" class="section_heading pb-60">
+                     <h2 class="dark-color"><span>Our</span> Professionals</h2>
+                    <p class="dark-color">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div><!-- Section Heading -->
+                <div class="row">
+                    <ul class="team_members">
+                        <li data-aos="zoom-in" data-aos-delay="300" class="col-sm-4 team_member">
+                            <figure class="member_thumb">
+                                <img src="img/member-1.png" alt="Team Member">
+                            </figure>
+                            <div class="member_info">
+                                <h4>Jonathan Smith</h4>
+                                <p>Cheif Designer</p>
+                                <ul class="social_links">
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li data-aos="zoom-in" data-aos-delay="300" class="col-sm-4 team_member">
+                            <figure class="member_thumb">
+                                <img src="img/member-2.png" alt="Team Member">
+                            </figure>
+                            <div class="member_info">
+                                <h4>Alena Cult</h4>
+                                <p>Web Developer</p>
+                                <ul class="social_links">
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li data-aos="zoom-in" data-aos-delay="300" class="col-sm-4 team_member">
+                            <figure class="member_thumb">
+                                <img src="img/member-3.png" alt="Team Member">
+                            </figure>
+                            <div class="member_info">
+                                <h4>John Doe</h4>
+                                <p>Marketer</p>
+                                <ul class="social_links">
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Team Section -->
+        
+        <section class="cta_section padding">
+            <div class="container">
+                <div class="cta_content align-center">
+                    <h2>We Are Free To Discuss</h2>
+                    <h4>Let's Start With a Cup of Coffee!</h4>
+                    <p>Contact with us for start your dream project.</p>
+                    <div data-aos="zoom-in" class="btn_anim">
+                        <button class="more_project_btn">Have A Coffee!</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+        <!-- Call To Action -->
+        
+        <section id="pricing" class="pricing_section padding">
+            <div class="container">
+                <div data-aos="fade-up" class="section_heading pb-60">
+                     <h2><span>Choose</span> The Right Package</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div><!-- Section Heading -->
+                <div class="row">
+                    <ul class="pricing_wrap">
+                        <li data-aos="fade-right" data-aos-delay="300" class="col-sm-5 col-sm-offset-1">
+                            <div class="pricing_inner align-right">
+                               <div class="pricing_title">
+                                   <h3>Basic</h3>
+                               </div>
+                                <h2 class="price">25$</h2>
+                                <ul class="feature_list">
+                                    <li>100 gb storage</li>
+                                    <li>Great support</li>
+                                    <li>Email support</li>
+                                    <li>WrodPress code</li>
+                                    <li>Pixcel perfect</li>
+                                </ul>
+                                <button class="buy_now_btn">Buy Now</button>
+                            </div>
+                        </li>
+                        <li data-aos="fade-left" data-aos-delay="300" class="col-sm-5">
+                            <div class="pricing_inner inverted align-left">
+                               <div class="pricing_title">
+                                   <h3>Super</h3>
+                               </div>
+                                <h2 class="price">25$</h2>
+                                <ul class="feature_list">
+                                    <li>100 gb storage</li>
+                                    <li>Great support</li>
+                                    <li>Email support</li>
+                                    <li>WrodPress code</li>
+                                    <li>Pixcel perfect</li>
+                                </ul>
+                                <button class="buy_now_btn">Buy Now</button>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Pricing Section -->
+        
+        <section id="blog" class="blog_section padding">
+            <div class="container">
+                <div data-aos="fade-up" class="section_heading pb-60">
+                     <h2 class="dark-color"><span>Latest</span> News</h2>
+                    <p class="dark-color">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                </div><!-- Section Heading -->
+                <div class="row">
+                    <ul class="blog_items">
+                        <li class="col-sm-6 blog_item">
+                            <div class="blog_thumb">
+                                <img src="img/blog-1.jpg" alt="Blog Post">
+                            </div>
+                            <div class="blog_content">
+                                <h3><a href="#">Tutorial: How to Reset apple Password</a></h3>
+                                <span class="posted_by"><b>Posted By:</b> John Doe</span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius aperiam doloremque perferendis?</p>
+                                <a href="#" class="read_more">Read More</a>
+                            </div>
+                        </li>
+                        <li class="col-sm-6 blog_item">
+                            <div class="blog_thumb">
+                                <img src="img/blog-1.jpg" alt="Blog Post">
+                            </div>
+                            <div class="blog_content">
+                                <h3><a href="#">Tutorial: How to Reset apple Password</a></h3>
+                                <span class="posted_by"><b>Posted By:</b> John Doe</span>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius aperiam doloremque perferendis?</p>
+                                <a href="#" class="read_more">Read More</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact" class="contact_section">
+            <div id="google_map" class="google_map"></div>
+            <div class="contact_wrap">
+               <div class="table-cell">
+                    <div class="container">
+                        <div class="col-sm-6 col-sm-offset-3">
+                            <div class="contact_form_wrap align-center">
+                                <h2>Get In Touch</h2>
+                                <form action="contact.php" method="post" id="ajax_form" class="form-horizontal contact_form">
+                                    <div class="form-group">
+                                        <div class="col-sm-6">
+                                            <input type="text" id="name" name="name" class="form-control" placeholder="Name" required>
+                                        </div>
+                                        <div class="col-sm-6">
+                                            <input type="email" id="email" name="email" class="form-control" placeholder="Email" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-xs-12">
+                                            <input type="text" id="subject" name="subject" class="form-control" placeholder="Subject" required>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                       <div class="col-xs-12">
+                                            <textarea id="message" name="message" cols="30" rows="5" class="form-control" placeholder="Message" required></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-xs-12">
+                                            <button type="submit" id="submit" class="more_project_btn">Send</button>
+                                        </div>
+                                    </div>
+                                    <div id="form-messages" class="alert" role="alert"></div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Contact Section -->
+        
+        <footer class="footer_section">
+            <div class="container">
+                <div class="col-sm-6">
+                    <p class="copyright">Copyright&copy; 2016. All Right Reserved by Hexa.</p>
+                </div>
+                <div class="col-sm-6">
+                    <ul class="footer_social">
+                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer Section -->
 
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
-</head>
 
-<body>
-  <p> Hello world! </p>
-</body>
+    <!-- Scroll To Top -->
+    <a href="#" data-scroll id="scroll-to-top" class="scroll-to-top"><i class="fa fa-chevron-up"></i></a>
+	
+	<!-- jQuery Lib -->
+	<script src="js/vendor/jquery-1.12.4.min.js"></script>
+	<!-- Waypoints JS -->
+    <script src="js/vendor/jquery.waypoints.min.js"></script>
+	<!-- Bootstrap JS -->
+    <script src="js/vendor/bootstrap.min.js"></script>
+	<!-- AOS JS -->
+    <script src="js/vendor/aos.js"></script>
+	<!-- OWL-Carousel JS -->
+	<script src="js/vendor/owl.carousel.min.js"></script>
+	<!-- Venobox JS -->
+	<script src="js/vendor/venobox.min.js"></script>
+	<!-- Smooth Scroll JS -->
+	<script src="js/vendor/smooth-scroll.min.js"></script>
+	<!-- Counter Up JS -->
+	<script src="js/vendor/jquery.counterup.min.js"></script>
+	<!-- Particles JS -->
+	<script src="js/vendor/particles.min.js"></script>
+	<!-- App JS -->
+	<script src="js/vendor/app.js"></script>
+	<!-- Google Map JS -->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBGm_weV-pxqGWuW567g78KhUd7n0p97RY"></script>
+	<!-- Contact JS -->
+	<script src="js/contact.js"></script>
+	<!-- Main JS -->
+	<script src="js/main.js"></script>
+
+    </body>
 </html>
