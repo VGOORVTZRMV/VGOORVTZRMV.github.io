@@ -1043,7 +1043,7 @@ ul.nav > li.active > a{
 }
 .footer_social li{
     display: inline-block;
-    margin-left: 10px;
+    margin-right: 10px;
 }
 .footer_social li a{
     font-size: 14px;
