@@ -673,52 +673,6 @@ ul.nav > li.active > a{
     z-index: 9;
 }
    
-/* ==========================================================================
-   Skills Section
-   ========================================================================== */
-.skills_section{
-    background-color: #fff;
-}
-.skills_items{}
-.skill_item{
-    display: block;
-    color: #fff;
-    padding-left: 100px;
-    margin-bottom: 30px;
-    position: relative;
-}
-.skills_items .skill_item:nth-child(4),
-.skills_items .skill_item:nth-child(5),
-.skills_items .skill_item:nth-child(6){
-    margin-bottom: 0;
-}
-.skill_item .skill_counter{
-    border: 2px solid #ffc327;
-    width: 70px;
-    height: 70px;
-    text-align: center;
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-.skill_item .skill_counter span{
-    font-family: 'Poppins', sans-serif;
-    font-size: 20px;
-	color: #111;
-    line-height: 70px;
-}
-.skill_item .skill_conetent{
-	color: #111;
-}
-.skill_item .skill_conetent h3{
-    margin: 0 0 5px;
-}
-.skill_item .skill_conetent p{
-	color: #333;
-    margin: 0;
-}
-
-
 
 /* ==========================================================================
    Video Section
@@ -836,76 +790,6 @@ ul.nav > li.active > a{
     background-color: #fff;
 }
 
-
-/* ==========================================================================
-   Pricing Section
-   ========================================================================== */
-.pricing_section{
-    background-color: #eee;
-}
-.pricing_wrap{}
-.pricing_inner{
-    background-color: #111;
-    color: #ffc327;
-    display: block;
-    padding: 25px 105px 25px 25px;
-    position: relative;
-}
-.pricing_inner.inverted{
-    padding: 25px 25px 25px 105px;
-}
-.pricing_inner .pricing_title{
-    background-color: #ffc327;
-    height: 100%;
-    width: 70px;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-.pricing_inner.inverted .pricing_title{
-    left: 0;
-    right: inherit;
-}
-.pricing_inner .pricing_title h3 {
-    writing-mode: vertical-rl;
-    display: block;
-    color: #111;
-    margin: 25px 0 0;
-    line-height: 70px;
-    font-size: 30px;
-    font-weight: 700;
-    letter-spacing: -1px;
-}
-.pricing_inner .price{
-    font-size: 40px;
-    font-weight: 700;
-    margin: 0 0 25px;
-}
-.pricing_inner .feature_list{}
-.pricing_inner .feature_list li{
-    letter-spacing: 1px;
-}
-.pricing_inner .buy_now_btn{
-    font-size: 14px;
-    line-height: 40px;
-    color: #111;
-    background-color: #ffc327;
-    display: inline-block;
-    padding: 0 25px;
-    position: absolute;
-    bottom: 25px;
-    left: 0;
-}
-.pricing_inner.inverted .buy_now_btn{
-    right: 0;
-    left: inherit;
-}
-.pricing_inner .buy_now_btn:hover{
-    color: #111;
-}
-.pricing_inner .buy_now_btn:before{
-    background-color: #fff;
-}
 
 /* ==========================================================================
    Blog Section
