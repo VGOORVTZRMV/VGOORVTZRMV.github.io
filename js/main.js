@@ -114,10 +114,10 @@ $(window).on('load', function() {
     google.maps.event.addDomListener(window, 'load', init);
 
     function init() {
-        
+
         var mapOptions = {
-            zoom: 11,
-            center: new google.maps.LatLng(40.6700, -73.9400), 
+            zoom: 14,
+            center: new google.maps.LatLng(50.448537, 30.504635), 
             scrollwheel: false,
             navigationControl: false,
             mapTypeControl: false,
@@ -132,7 +132,7 @@ $(window).on('load', function() {
         var map = new google.maps.Map(mapElement, mapOptions);
         
         var marker = new google.maps.Marker({
-            position: new google.maps.LatLng(40.6700, -73.9400),
+            position: new google.maps.LatLng(50.448537, 30.504635),
             map: map,
             title: 'Hexa!'
         });
