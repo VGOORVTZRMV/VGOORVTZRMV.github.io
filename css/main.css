@@ -821,16 +821,10 @@ ul.nav > li.active > a{
 }   
 .cta_content{}
 .cta_content h2{
-	font-size: 40px;
+	font-size: 30px;
     margin: 0 0 10px;
 }
-.cta_content h4{
-    font-size: 18px;
-    margin: 0 0 5px;
-}
-.cta_content p{
-    margin: 0;
-}
+
 .cta_content .more_project_btn{
     background-color: #111;
     color: #fff;
