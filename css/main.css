@@ -1035,7 +1035,6 @@ ul.nav > li.active > a{
 }
 .footer_social{
     display: block;
-    text-align: right;
 }
 .footer_social li{
     display: inline-block;
