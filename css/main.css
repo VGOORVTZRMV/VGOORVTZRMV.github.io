@@ -630,7 +630,7 @@ ul.nav>li.active>a {
 }
 
 .feature_img:before {
-    background: url(../img/feature-img.jpg) no-repeat 0 0;
+    //background: url(../img/feature-img.jpg) no-repeat 0 0;
     -webkit-background-size: cover;
     background-size: cover;
     content: '';
@@ -675,12 +675,6 @@ ul.nav>li.active>a {
     position: absolute;
     left: 0;
     top: 0;
-}
-
-.feature_items .feature_item:hover .feature_icon {
-    background-color: #fff;
-    border: 2px solid #111;
-    color: #111;
 }
 
 .feature_item .feature_content {}
