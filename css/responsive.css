@@ -253,6 +253,9 @@
 }
 /* ---- End of max-width 480px CSS ---- */
 
+.dropdown-menu li:hover, li:focus, a:focus, a:hover { background: white !important; color: #ffc327 !important; }
+.dropdown-menu > li.active > a { background: white !important; color: #ffc327 !important; }
+
 
 /* ---- Start of max-width 420px CSS ---- */
 @media all and (max-width: 420px) {
